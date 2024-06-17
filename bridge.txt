@@ -1,8 +1,8 @@
 # Write serial port name
-VARIABLE write_port_name COM1
+VARIABLE write_port_name /dev/ttyUSB0
         
 # Read serial port name
-VARIABLE read_port_name COM1
+VARIABLE read_port_name /dev/ttyUSB0
         
 # Baud Rate
 VARIABLE baud_rate 115200
