@@ -38,5 +38,5 @@ INTERFACE SERIAL_INT serial_interface.rb <%= write_port_name %> <%= read_port_na
         
 ROUTER SERIAL_ROUTER tcpip_server_interface.rb <%= router_port %> <%= router_port %> 10.0 nil BURST
   ROUTE SERIAL_INT
-  OPTION LISTEN_ADDRESS <%= router_listen_address %>
+  # OPTION LISTEN_ADDRESS <%= router_listen_address %>
         
