@@ -1,0 +1,17 @@
+{
+  "name": "openc3-cosmos-gse-0.0.0.20240626175144.gem__20240627005247",
+  "variables": {
+    "gse_target_name": "GSE"
+  },
+  "plugin_txt_lines": [
+    "# Set VARIABLEs here to allow variation in your plugin",
+    "",
+    "VARIABLE gse_target_name GSE",
+    "",
+    "TARGET GSE <%= gse_target_name %>",
+    "INTERFACE <%= gse_target_name %>_INT tcpip_client_interface.rb 172.17.0.1 2950 2950 10.0 nil LENGTH 64 16 11 1 BIG_ENDIAN 4 0x352EF853",
+    "  MAP_TARGET <%= gse_target_name %>"
+  ],
+  "needs_dependencies": false,
+  "updated_at": 1719449567455642733
+}
